@@ -221,3 +221,4 @@ __marimo__/
 chroma_db/
 *.gguf
 *.bin
+.vscode/
