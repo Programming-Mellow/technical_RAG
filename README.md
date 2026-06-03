@@ -150,8 +150,8 @@ Security controls are defined at every layer, from local development through pro
 
 | Phase | Focus | Weeks | Status |
 |---|---|---|---|
-| 1 | Local RAG prototype + repo hardening | 1–2 | In progress |
-| 2 | FastAPI + Docker + CI | 3–4 | Planned |
+| 1 | Local RAG prototype + repo hardening | 1–2 | Finished |
+| 2 | FastAPI + Docker + CI | 3–4 | In Progress |
 | 3 | CloudFormation architecture | 5–6 | Planned |
 | 4 | AWS deployment + CD pipeline | 7–8 | Planned |
 | 5 | AI security testing & governance | 9 | Planned |
