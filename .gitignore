@@ -222,3 +222,5 @@ chroma_db/
 *.gguf
 *.bin
 .vscode/
+.docs/
+CLAUDE.md
