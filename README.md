@@ -20,21 +20,21 @@ The system separates **ingestion** from **inference** at every layer. This is an
 
 ```
                     ┌─────────────────────────────────────────────┐
-                    │                   Local                      │
-                    │                                              │
+                    │                   Local                     │
+                    │                                             │
   Documents ──────► │  Ingestion Script ──► ChromaDB              │
-                    │                          │                   │
+                    │                          │                  │
   Query ──────────► │  FastAPI /query ─────────┘ ──► LM Studio    │
                     └─────────────────────────────────────────────┘
 
                     ┌─────────────────────────────────────────────┐
-                    │                    AWS                       │
-                    │                                              │
+                    │                    AWS                      │
+                    │                                             │
   S3 Upload ──────► │  Lambda (+ DLQ) ──► OpenSearch Serverless   │
-                    │                          │                   │
+                    │                          │                  │
   Query ──────────► │  API Gateway ──► WAF ──► ECS Fargate ───────┘
-                    │                          │                   │
-                    │             Secrets Manager / CloudWatch     │
+                    │                          │                  │
+                    │             Secrets Manager / CloudWatch    │
                     └─────────────────────────────────────────────┘
 ```
 
