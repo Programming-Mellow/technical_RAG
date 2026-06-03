@@ -2,7 +2,7 @@
 
 A production-grade Retrieval-Augmented Generation (RAG) system for querying technical documents (equipment manuals, OSHA safety docs, technical specifications). Built with a focus on security, observability, and enterprise deployment patterns.
 
-> **Status:** Phase 1 in progress — local prototype. See [project phases](#project-phases) for the full roadmap.
+> **Status:** Phase 2 in progress — local prototype. See [project phases](#project-phases) for the full roadmap.
 
 ---
 
